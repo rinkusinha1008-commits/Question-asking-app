@@ -117,90 +117,152 @@ Quiz-Game/
 
 <p>
 The project is based on:
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Python Quiz Game</title>
 
-<ul>
-  <li>While loops for repeating questions</li>
-  <li>If-else conditions for answer checking</li>
-  <li>String normalization using lower() and strip()</li>
-  <li>Tkinter messagebox for UI interaction</li>
-</ul>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
 
----
+header {
+    text-align: center;
+    padding: 40px;
+    background: rgba(0,0,0,0.4);
+    animation: fadeIn 2s ease-in-out;
+}
 
-<h2>🔁 INPUT VALIDATION SYSTEM</h2>
+h1 {
+    font-size: 40px;
+    color: #00e6ff;
+}
 
-<p>
-The system ensures:
-</p>
+.typing {
+    font-size: 18px;
+    color: #fff;
+    border-right: 2px solid white;
+    width: fit-content;
+    margin: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(40) infinite alternate;
+}
 
-<ul>
-  <li>Empty input is not accepted</li>
-  <li>Wrong answers are repeated</li>
-  <li>User must enter correct answer to proceed</li>
-</ul>
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
 
----
+@keyframes fadeIn {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
 
-<h2>📈 FUTURE IMPROVEMENTS</h2>
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
 
-<ul>
-  <li>🏆 Add scoring system (out of 30)</li>
-  <li>⏱️ Add timer for each question</li>
-  <li>💾 Save results in JSON file</li>
-  <li>📊 Show final result dashboard</li>
-  <li>🎨 Improve UI with buttons instead of dialogs</li>
-  <li>👥 Add multiple users system</li>
-  <li>🔐 Login system for students</li>
-</ul>
+.card {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.2);
+    transition: 0.3s;
+}
 
----
+.card:hover {
+    transform: scale(1.05);
+    background: rgba(0,255,255,0.1);
+}
 
-<h2>💡 LEARNING OUTCOMES</h2>
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #00e6ff;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
-<p>
-After building this project, you will understand:
-</p>
+button:hover {
+    background: #00ffaa;
+}
 
-<ul>
-  <li>How Tkinter GUI works</li>
-  <li>How loops control program flow</li>
-  <li>How to handle user input</li>
-  <li>How to build interactive applications</li>
-</ul>
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+    margin-top: 20px;
+}
+</style>
+</head>
 
----
+<body>
 
-<h2>⚠️ LIMITATIONS</h2>
+<header>
+    <h1>🧠 Python Quiz Game</h1>
+    <div class="typing">Interactive MCQ Learning System • Built with Tkinter Logic • 30+ Questions</div>
+</header>
 
-<ul>
-  <li>No scoring system currently</li>
-  <li>No database or file saving</li>
-  <li>No graphical buttons (only dialogs)</li>
-</ul>
+<div class="container">
 
----
+    <div class="card">
+        <h2>🏠 HOME</h2>
+        <p>Welcome to Quiz Game Project. This is a Python-based interactive MCQ system.</p>
+        <button>Start Quiz</button>
+    </div>
 
-<h2>🚀 PROJECT IMPACT</h2>
+    <div class="card">
+        <h2>⚙️ FEATURES</h2>
+        <ul>
+            <li>30+ Questions</li>
+            <li>Retry System</li>
+            <li>MCQ Format</li>
+            <li>Beginner Friendly</li>
+        </ul>
+    </div>
 
-<p>
-This project is a great beginner-level Python GUI application that helps in:
-</p>
+    <div class="card">
+        <h2>🧠 HOW IT WORKS</h2>
+        <p>Start → Answer Questions → Validation → Next Question → Final Result</p>
+    </div>
 
-<ul>
-  <li>Building logic thinking</li>
-  <li>Understanding real-world application flow</li>
-  <li>Preparing for advanced Python projects</li>
-</ul>
+    <div class="card">
+        <h2>📊 MODULES</h2>
+        <p>Science, GK, Space, Biology, Physics, Geography</p>
+    </div>
 
----
+    <div class="card">
+        <h2>🚀 FUTURE</h2>
+        <ul>
+            <li>Score System</li>
+            <li>JSON Storage</li>
+            <li>Timer Mode</li>
+            <li>Leaderboard</li>
+        </ul>
+    </div>
 
-<h2>👨‍💻 AUTHOR</h2>
+    <div class="card">
+        <h2>👨‍💻 AUTHOR</h2>
+        <p>Built using Python + Tkinter for learning purposes.</p>
+        <button>GitHub Project</button>
+    </div>
 
-<p>
-Made using Python and Tkinter for learning and practice purposes.
-</p>
+</div>
 
----
+<footer>
+    🔥 Python Quiz Game • Ultimate Learning Project • UI Version 🔥
+</footer>
 
-<h2 align="center">🔥 END OF PROJECT DOCUMENTATION 🔥</h2>
+</body>
+</html>
