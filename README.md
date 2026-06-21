@@ -206,63 +206,158 @@ footer {
 }
 </style>
 </head>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Python Quiz Game</title>
+</head>
 
 <body>
 
-<header>
-    <h1>🧠 Python Quiz Game</h1>
-    <div class="typing">Interactive MCQ Learning System • Built with Tkinter Logic • 30+ Questions</div>
-</header>
+<h1 align="center">🧠 Python Quiz Game (Tkinter Project)</h1>
 
-<div class="container">
+<p align="center">
+Welcome to the <b>Python Quiz Game</b> project — an interactive MCQ-based learning system built using Python and Tkinter.
+</p>
 
-    <div class="card">
-        <h2>🏠 HOME</h2>
-        <p>Welcome to Quiz Game Project. This is a Python-based interactive MCQ system.</p>
-        <button>Start Quiz</button>
-    </div>
+<hr>
 
-    <div class="card">
-        <h2>⚙️ FEATURES</h2>
-        <ul>
-            <li>30+ Questions</li>
-            <li>Retry System</li>
-            <li>MCQ Format</li>
-            <li>Beginner Friendly</li>
-        </ul>
-    </div>
+<h2>🏠 HOME</h2>
 
-    <div class="card">
-        <h2>🧠 HOW IT WORKS</h2>
-        <p>Start → Answer Questions → Validation → Next Question → Final Result</p>
-    </div>
+<p>
+This project is a simple but powerful quiz application.  
+It asks multiple-choice questions and checks answers using logic-based validation.
+</p>
 
-    <div class="card">
-        <h2>📊 MODULES</h2>
-        <p>Science, GK, Space, Biology, Physics, Geography</p>
-    </div>
+<p>
+👉 User must type <b>start</b> to begin the quiz.
+</p>
 
-    <div class="card">
-        <h2>🚀 FUTURE</h2>
-        <ul>
-            <li>Score System</li>
-            <li>JSON Storage</li>
-            <li>Timer Mode</li>
-            <li>Leaderboard</li>
-        </ul>
-    </div>
+<hr>
 
-    <div class="card">
-        <h2>👨‍💻 AUTHOR</h2>
-        <p>Built using Python + Tkinter for learning purposes.</p>
-        <button>GitHub Project</button>
-    </div>
+<h2>🎮 PROJECT OVERVIEW</h2>
 
-</div>
+<ul>
+<li>30+ Questions</li>
+<li>MCQ format (A/B/C/D)</li>
+<li>Popup-based interface</li>
+<li>Retry until correct answer</li>
+<li>Beginner-friendly Python logic</li>
+</ul>
 
-<footer>
-    🔥 Python Quiz Game • Ultimate Learning Project • UI Version 🔥
-</footer>
+<hr>
+
+<h2>⚙️ HOW IT WORKS</h2>
+
+<pre>
+START PROGRAM
+   ↓
+SHOW WELCOME MESSAGE
+   ↓
+USER TYPES "start"
+   ↓
+QUESTION LOOP STARTS
+   ↓
+ANSWER CHECKING
+   ↓
+RETRY IF WRONG
+   ↓
+NEXT QUESTION
+   ↓
+FINAL MESSAGE
+</pre>
+
+<hr>
+
+<h2>🧠 FEATURES</h2>
+
+<ul>
+<li>Interactive quiz system</li>
+<li>Input validation</li>
+<li>Retry system</li>
+<li>30+ questions</li>
+<li>Educational learning tool</li>
+</ul>
+
+<hr>
+
+<h2>📚 QUESTION CATEGORIES</h2>
+
+<ul>
+<li>🌌 Space (Black holes, planets)</li>
+<li>🌍 Geography (countries, capitals)</li>
+<li>🧬 Biology (human body, animals)</li>
+<li>🧪 Science (physics, chemistry)</li>
+<li>📖 General Knowledge</li>
+</ul>
+
+<hr>
+
+<h2>🛠️ TECH STACK</h2>
+
+<ul>
+<li>Python 3</li>
+<li>Tkinter GUI</li>
+<li>SimpleDialog + MessageBox</li>
+<li>Logic-based loops</li>
+</ul>
+
+<hr>
+
+<h2>📁 PROJECT STRUCTURE</h2>
+
+<pre>
+Quiz-Game/
+│
+├── quiz.py
+└── README.html
+</pre>
+
+<hr>
+
+<h2>▶️ HOW TO RUN</h2>
+
+<pre>
+python quiz.py
+</pre>
+
+<p>
+Then type <b>start</b> to begin the quiz.
+</p>
+
+<hr>
+
+<h2>📈 FUTURE UPGRADES</h2>
+
+<ul>
+<li>🏆 Score system</li>
+<li>💾 Save results in JSON</li>
+<li>⏱️ Timer-based quiz</li>
+<li>📊 Result dashboard</li>
+<li>🎮 Button-based UI version</li>
+</ul>
+
+<hr>
+
+<h2>⚠️ LIMITATIONS</h2>
+
+<ul>
+<li>No scoring system yet</li>
+<li>No database storage</li>
+<li>No graphical buttons</li>
+</ul>
+
+<hr>
+
+<h2>👨‍💻 AUTHOR</h2>
+
+<p>
+Made using Python + Tkinter for learning purposes.
+</p>
+
+<hr>
+
+<h2 align="center">🔥 THANK YOU FOR USING THIS PROJECT 🔥</h2>
 
 </body>
 </html>
