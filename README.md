@@ -230,6 +230,30 @@ It asks multiple-choice questions and checks answers using logic-based validatio
 </p>
 
 <p>
+👉 User must type <b>start</b> to <!DOCTYPE html>
+<html>
+<head>
+<title>Python Quiz Game</title>
+</head>
+
+<body>
+
+<h1 align="center">🧠 Python Quiz Game (Tkinter Project)</h1>
+
+<p align="center">
+Welcome to the <b>Python Quiz Game</b> project — an interactive MCQ-based learning system built using Python and Tkinter.
+</p>
+
+<hr>
+
+<h2>🏠 HOME</h2>
+
+<p>
+This project is a simple but powerful quiz application.  
+It asks multiple-choice questions and checks answers using logic-based validation.
+</p>
+
+<p>
 👉 User must type <b>start</b> to begin the quiz.
 </p>
 
